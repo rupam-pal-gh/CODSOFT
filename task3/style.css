@@ -1,0 +1,29 @@
+#calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #1E90FF;
+    border-radius: 10px;
+    background: #F0F8FF; /* Light blue background */
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: #87CEEB; /* Sky blue background for display */
+    color: #FFD700; /* Yellow text color */
+    border: 1px solid #1E90FF; /* Blue border for display */
+    border-radius: 5px;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    background: #1E90FF; /* Blue background for buttons */
+    color: #FFD700; /* Yellow text color for buttons */
+    border: none;
+    border-radius: 50%; /* Make buttons circular */
+}
